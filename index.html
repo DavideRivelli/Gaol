@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gaol</title>
+    <link href="/stili/stile.css" type="text/css" rel="stylesheet">
+    <link href="/stili/login.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/immagini/favicon.ico">
+</head>
+<body>
+    <form action="login.php" method="post">
+        <div class="game-container">
+            <canvas class="game-canvas" width="1100" height="700"></canvas>
+        </div>
+        <div class="center">
+            <button id="show-login">Login</button>
+        </div>
+        <div class="popup">
+            <div class="close-btn">&times;</div>
+            <div class="form">
+                <h2>Log in</h2>
+                <div class="form-element">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Inserisci username" required> 
+                </div>
+                <div class="form-element">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Inserisci password" required> 
+                </div>
+                <div class="form-element">
+                    <button id="login-btn">Accedi</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="/script/titolo.js"></script>
+</body>
+</html>
